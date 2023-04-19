@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.audio-player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  border: 2px dashed #999;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.upload-button:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+  fill: currentColor;
+}
